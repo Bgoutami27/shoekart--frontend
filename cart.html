@@ -207,7 +207,7 @@
 
       const totalAmount = cart.reduce((sum, item) => sum + item.price * item.quantity, 0);
 
-      fetch("https://shoekart-backend.onrender.com/orders", {
+      fetch("https://backend-1-ctwg.onrender.com/orders", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
